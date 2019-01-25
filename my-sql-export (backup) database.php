@@ -56,4 +56,4 @@ fwrite($fp, $content);
 
 fclose($fp);
   //  header('Content-Type: application/octet-stream');   header("Content-Transfer-Encoding: Binary"); header("Content-disposition: attachment; filename=\"".$backup_name."\"");  echo $content; exit;
-
+  // name of the backup file for example - name_of_databaze___(06-25-32_24-01-2019)__rand7602027.sql
